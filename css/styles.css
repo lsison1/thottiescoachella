@@ -47,7 +47,7 @@ header {
 
 .nav__links li {
     display: inline-block;
-    padding: 0px 15px;
+    padding: 0px 10px;
     align-items: center;
 }
 
@@ -92,8 +92,8 @@ h4 {
 
 
 .top-container {
-    margin: 5%;
-    display: grid;
+    margin: 2% 0 1% 0;
+    display: block;
     align-items: center;
 }
 
@@ -102,18 +102,22 @@ h4 {
     font-family: "Gloock", serif;
     color: white;
     font-weight: 700;
-    margin: 1% auto 2%;
+    margin: 1% auto 1%;
     text-align: center;
 }
 
 .thotties-pic {
     display: block;
-    margin: 1% auto;
+    margin: 1% auto 2%;
     border-radius: 20px;
     width: 70%;
     vertical-align: middle;
 }
 
+iframe {
+    display: block;
+    margin: 0 auto;
+}
 
 @media (max-width: 768px) {
     header {
@@ -124,16 +128,24 @@ h4 {
         padding: 0px 5px;
     }
 
+    .nav__links li a{
+        font-size: 12px;
+    }
     .navbar-left {
         display: block;
     }
 
-    .divider {
+  .divider {
         display: none;
     }
-
+/*
     .nav__links {
         display: none;
+    }
+*/
+
+    .nav__links li {
+        padding: 2px;
     }
 
     .header-text {
@@ -151,8 +163,12 @@ h4 {
         display: none;
     }
 
-    .nav__links {
-        display: none;
+    .nav__links li {
+        padding: 0px 5px;
+    }
+    
+    .nav__links li a{
+        font-size: 10px;
     }
 
 }
