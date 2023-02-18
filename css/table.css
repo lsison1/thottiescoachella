@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Julee&family=Merriweather:wght@700&family=Noto+Serif+Khojki:wght@400;600&family=PT+Serif:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap');
+
+.content-table {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    min-width: 10%;
+    font-family: 'Playfair Display', serif;
+    margin: 25px auto;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px 5px rgba(0,0,0,0.15);
+}
+
+.content-table thead tr {
+    color: white;
+    text-align: left;
+    border-bottom: 1px solid grey;
+}
+
+.content-table thead tr td {
+    font-size: 30px;
+    letter-spacing: 10px;
+    color: gray;
+    padding: 0 10px;
+}
+
+.content-table tbody tr{
+    text-align: left;
+    color: #f3f3f3
+}

@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Julee&family=Merriweather:wght@700&family=Noto+Serif+Khojki:wght@400;600&family=PT+Serif:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0px;
+    background: linear-gradient(45deg, #e66465, #9198e5);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* #region Navigation bar */
+header {
+    margin: 2% 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* #region Left Navigation bar */
+.navbar-left {
+    display: flex;
+    align-items: center;
+    color: #edf0f1;
+}
+
+.navbar-left>* {
+    margin-right: 10px;
+}
+
+.divider {
+    position: relative;
+    font-size: 15px;
+}
+
+/* #endregion */
+
+/* #region Right Navigation bar */
+.nav__links {
+    display: flex;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 15px;
+    align-items: center;
+}
+
+.nav__links li a {
+    text-decoration: none;
+    transition: all 0.3s ease 0.1s;
+    color: white;
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+}
+
+.nav__links li a:hover {
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 2.2px;
+    text-underline-position: under;
+}
+
+/* #endregion */
+
+h1 {
+    font-family: "Carena", sans-serif;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 15px;
+    text-align: center;
+}
+/* #endregion */
+
+
+.top-container {
+    margin: 5%;
+    display: block;
+}
+
+.header-text {
+    font-size: clamp(3rem,10vw,6rem);;
+    font-family: "Gloock", serif;
+    color: white;
+    font-weight: 700;
+    margin: 1% auto 2%;
+    text-align: center;
+}
+
+.thotties-pic {
+    display: block;
+    margin: 1% auto;
+    border-radius: 20px;
+    width: 70%;
+    vertical-align: middle;
+}
+
+.spotify-container {
+    margin: 1% auto; 
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    header {
+        margin: 5% 2%;
+    }
+    
+    .nav__links li {
+        padding: 0px 5px;
+    }
+
+    .navbar-left {
+        display: block;
+        margin: 2%;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    .nav__links {
+        display: none;
+    }
+}
+
+@media (max-width: 425px) {
+    .navbar-left {
+        display: block;
+        margin: 2%;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    .nav__links {
+        display: none;
+    }
+
+}
+
